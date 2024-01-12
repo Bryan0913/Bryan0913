@@ -1,0 +1,7 @@
+import phonenumbers
+from phonenumbers import geocoder, carrier, timezone
+
+phone _number = phonenumbers.parse('+60122263309')
+print(geocoder.description_for_number(phone_number, 'en')
+print(carrier.name_for_number(phone_number,'en'))
+print(timezone.time_zone_for_number(phone_number))
